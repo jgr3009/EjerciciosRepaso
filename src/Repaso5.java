@@ -43,9 +43,10 @@ public class Repaso5 extends acm.program.GraphicsProgram{
 	//añado el método que escucha el evento del clic del ratón
 	
 	public void mouseClicked (MouseEvent evento){
-		rectangulo.setFilled(true);
 		
+		if (evento.getButton() == MouseEvent.BUTTON1){
+		rectangulo.setFilled(true);
 		rectangulo.setFillColor(aleatorio.nextColor());
 	}
-
+	}
 }
