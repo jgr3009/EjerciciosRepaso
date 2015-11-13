@@ -12,7 +12,7 @@ import acm.graphics.*;
 
 public class Repaso4 extends acm.program.GraphicsProgram{
 
-	//una variable de instancia es lo que se declara antes del inicio para que esté vista en el código.
+	//una variable de instancia es lo que se declara antes del inicio para que esté vista en todo el código.
 	
 	//Declaro una variable de instancia para almacenar el rectángulo
 	//Como es de instancia, se ve desde el init y desde el run.
